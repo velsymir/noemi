@@ -1,0 +1,163 @@
+@media (min-width: 768px) {
+  .header {
+    padding-top: 5.5vw;
+    padding-bottom: 16.4vw;
+    background-image: url(../img/banner-bg-tablet.jpg);
+  }
+
+  .header__logo {
+    position: relative;
+    left: -35px;
+    margin-bottom: 13.5vw;
+  }
+
+  .header__logo img {
+    width: 160px;
+    height: 38px;
+    margin: 0;
+  }
+
+  .header__header {
+  }
+
+  .header__header h1 {
+    font-size: 2.5rem;
+  }
+
+  .header__nav-burger {
+    top: 53px;
+    right: 35px;
+  }
+
+  .trends {
+    margin-bottom: 50px;
+  }
+
+  .trends__list {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .trends__list-item {
+    flex: 1 calc(50% - 43px);
+    margin-right: 3px;
+  }
+
+  .trends__list-item:nth-child(2n+2) {
+    margin-right: 0;
+  }
+
+  .trends__text h3 {
+    font-size: 1.0625rem;
+  }
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .last-post {
+    flex-basis: 60%;
+    margin-right: 4.55vw;
+    padding: 0;
+  }
+
+  .last-post__img img {
+    width: 100%;
+  }
+
+  .last-post__header {
+    font-size: 1.0625rem;
+  }
+
+  .last-post__autor {
+    font-size: 1rem;
+  }
+
+  .main-aside {
+    flex-basis: 40%;
+  }
+
+  .new-posts {
+    vertical-align: top;
+  }
+
+  .new-posts h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 9px;
+    vertical-align: top;
+    font-size: 0.875rem;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1160px) {
+  .header {
+    padding: 0;
+    padding-top: 28px;
+    padding-bottom: 147px;
+    background-image: url(../img/banner-bg.jpg);
+  }
+
+  .wrapper {
+    max-width: 1168px;
+    margin: 0 auto;
+  }
+
+  .header__logo {
+    margin-bottom: 0;
+    left: 0;
+  }
+
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 126px;
+  }
+
+  .header__nav-logo {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__nav-burger {
+    display: none;
+  }
+
+  .header__nav-list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header__nav-list li {
+    margin-left: 37px;
+    text-transform: uppercase;
+  }
+
+  .header__header {
+    width: 40.96vw;
+    margin: 0 auto;
+  }
+
+  .header__header h1 {
+    font-size: 2.812rem;
+  }
+
+  .trends__list-item {
+    flex-basis: calc(25% - 169px);
+  }
+
+  .trends__list-item:nth-child(2) {
+    margin-right: 3px;
+  }
+
+  .trends__text h3 {
+    font-size: 1.25rem;
+  }
+}
