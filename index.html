@@ -42,10 +42,10 @@
     </header>
     <main class="main">
       <section class="trends">
-        <div class="trends__header">
-          <h2>Сейчас в тренде</h2>
-        </div>
         <div class="trends__container">
+          <div class="trends__header">
+            <h2>Сейчас в тренде</h2>
+          </div>
           <ul class="trends__list">
             <li class="trends__list-item">
               <div class="trends__list-content">
@@ -105,7 +105,7 @@
                 <a href="#" class="tag">health</a>
                 <a href="#" class="tag">travel</a>
               </div>
-              <h3 class="last-post__header">10 мест, ради которых стоит проснуться на рассвете</h3>
+              <h3 class="last-post__header">10 мест, ради которых стоит проснуться на рассвете </h3>
               <div class="last-post__autor">
                 <span>10 июня 2019</span>
                 <span>Неизвестный автор</span>
@@ -248,8 +248,8 @@
             <label for="search">
               <input type="text" id="#search" placeholder="Найти...">
               <span class="visually_hidden">search site</span>
+              <button type="submit" name="button"></button>
             </label>
-            <button type="submit" name="button"></button>
           </form>
           <form class="aside__form" method="get">
             <h3>рассылка</h3>
@@ -307,13 +307,12 @@
         <h2>наши изделия</h2>
         <div class="stuff__container">
           <article class="stuff__card">
-            <div class="stuff__img">
+            <div class="stuff__card-container">
               <picture>
-                <source srcset="img/shop-item-desk1.jpg" media="(min-width: 1160px)">
-                <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 768px)">
+                <source srcset="img/shop-item-desk1.jpg" media="(min-width: 1160px)" />
+                <source srcset="img/shop-item-tablet1.jpg" media="(min-width: 768px)" />
                 <img src="img/shop-item-mobile1.jpg" alt="podushka with text">
               </picture>
-            </div>
             <div class="stuff_content">
               <h3 class="stuff__article">подушки на диван</h3>
               <p class="stuff__descr">Набор из двух подушек с модными принтами. Видео о создании <a href="#">здесь.</a></p>
@@ -327,15 +326,15 @@
                 </div>
               </div>
             </div>
+            </div>
           </article>
           <article class="stuff__card">
-            <div class="stuff__img">
+            <div class="stuff__card-container">
               <picture>
                 <source srcset="img/shop-item-desk2.jpg" media="(min-width: 1160px)">
                 <source srcset="img/shop-item-tablet2.jpg" media="(min-width: 768px)">
                 <img src="img/shop-item-mobile2.jpg" alt="podushka with text">
               </picture>
-            </div>
             <div class="stuff_content">
               <h3 class="stuff__article">Кукла «Зайчик»</h3>
               <p class="stuff__descr">Интерьерная рукодельная кукла «Зайчик», созданию которой посвящена <a href="#">весенняя серия постов</a> в блоге и несколько подкастов.</p>
@@ -348,18 +347,18 @@
                 </div>
               </div>
             </div>
+          </div>
           </article>
           <article class="stuff__card">
-            <div class="stuff__img">
+            <div class="stuff__card-container">
               <picture>
                 <source srcset="img/shop-item-desk3.jpg" media="(min-width: 1160px)">
                 <source srcset="img/shop-item-tablet3.jpg" media="(min-width: 768px)">
                 <img src="img/shop-item-mobile3.jpg" alt="podushka with text">
               </picture>
-            </div>
             <div class="stuff_content">
               <h3 class="stuff__article">Шестиугольная рамка</h3>
-              <p class="stuff__descr">Необычная рамка для украшения дома из видео <a href="#">«Как сделать рамку из подручных средств за 30 минут»</a></p>
+              <p class="stuff__descr">Необычная рамка для украшения дома из видео <a href="#">«Как сделать рамку из подручных средств за 30 минут» lorem</a></p>
               <div class="stuff__buy">
                 <div class="stuff__price">
                   <span class="stuff__old-price">500 Р</span>
@@ -370,6 +369,7 @@
                 </div>
               </div>
             </div>
+          </div>
           </article>
         </div>
       </section>
