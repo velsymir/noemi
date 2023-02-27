@@ -44,6 +44,10 @@ a {
   font-weight: bold;
 }
 
+.tag:hover {
+  text-decoration: underline;
+}
+
 .header {
   position: relative;
   padding-top: 62.2vw;
@@ -261,6 +265,11 @@ a {
   margin-bottom: 20px;
 }
 
+.last-post__header:hover {
+  color: #b59f5b;
+  cursor: pointer;
+}
+
 .last-post__autor {
   display: flex;
   justify-content: flex-start;
@@ -349,8 +358,11 @@ a {
 }
 
 .aside__search {
-  position: relative;
   margin-bottom: 43px;
+}
+
+.aside__search label {
+  position: relative;
 }
 
 .aside__search input {
@@ -359,8 +371,14 @@ a {
   max-width: 400px;
   outline: none;
   border: none;
+  font-size: 0.8125rem;
   background-color: #f4f7f6;
   padding-left: 15px;
+}
+
+.aside__search input:hover {
+  border: 2px solid #b59f5b;
+  padding-left: 13px;
 }
 
 .aside__search button {
@@ -375,6 +393,10 @@ a {
   background-size: 20px 20px;
   outline: none;
   border: none;
+}
+
+.aside__search button:hover {
+  background-color: black;
 }
 
 .aside__form {
@@ -407,6 +429,11 @@ a {
   margin-bottom: 18px;
 }
 
+.aside__form input:focus {
+  outline: none;
+  box-shadow: 0px 1px #ebe7d7;
+}
+
 .aside__form button {
   width: 100%;
   height: 50px;
@@ -414,6 +441,11 @@ a {
   border: none;
   color: white;
   font-size: 0.875rem;
+  text-transform: uppercase;
+}
+
+.aside__form button:hover {
+  background-color: black;
 }
 
 .aside__tags {
@@ -461,6 +493,7 @@ a {
 .aside__topics h3 {
   position: relative;
   text-align: center;
+  text-transform: uppercase;
   font-size: 1rem;
   font-weight: bold;
   margin-bottom: 40px;
@@ -481,6 +514,10 @@ a {
   font-weight: bold;
   text-transform: capitalize;
   color: black;
+}
+
+.aside__topics-list a:hover {
+  color: #b59f5b;
 }
 
 .aside__topics-list li {
@@ -603,6 +640,10 @@ a {
   text-align: center;
   font-size: 0.875rem;
   text-transform: uppercase;
+}
+
+.stuff_go-shop:hover {
+  background-color: black;
 }
 
 .main__footer {
